@@ -7,7 +7,8 @@ fn main() {
     println!(); // Print a newline at the end
 
     let is_male: bool = false; // Boolean variable, can be true or false
-    let is_above_18: bool = true;
+    let is_above_18: bool = true; // All variables are immutable by default
+    // To make them mutable, use the mut keyword like this: let mut x: i32 = 5;
 
     if is_male {
         println!("You are male");
